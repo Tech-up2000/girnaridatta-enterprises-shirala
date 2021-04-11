@@ -1,0 +1,155 @@
+@media screen and (max-width:1200px)
+{
+	
+
+.background url
+{width:100%;}
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:991px)
+{
+		
+.hero background url{
+width:100%}
+
+.hero h1{
+font-size:35px;
+width:100%;
+margin:10%;
+position:auto;}
+
+
+.hero h3{
+font-size:30px;
+width:100%;
+margin:5%
+}	
+.hero img{width:50%;
+margin:10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:680px)
+{
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:640px)
+{
+	
+.hero background url{
+width:100%}
+
+.hero h1{
+font-size:21.5px;
+width:100%;
+margin:10%;
+position:auto;}
+
+
+.hero h3{
+font-size:20px;
+width:100%;
+margin:5%
+}	
+.hero img{width:50%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:430px)
+{
+	
+
+
+.hero background url{
+width:100%}
+
+.hero h1{
+font-size:14px;
+max-width:100%;
+margin:5%
+}
+
+
+.hero h3{
+font-size:13px;
+max-width:100%;
+margin:5%
+}	
+.hero img{
+width:50%;
+}
+}
+
+@media screen and (max-width:330px)
+{
+	
+
+
+.hero background url{
+width:100%}
+
+.hero h1{
+font-size:13px;
+max-width:100%;
+margin:5%
+}
+
+
+.hero h3{
+font-size:12px;
+max-width:100%;
+margin:5%
+}	
+.hero img{
+width:50%;
+}
+}
