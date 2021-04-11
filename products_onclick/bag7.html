@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="pro.css" rel="stylesheet">
+<body>
+
+<h2 style="text-align:center">Girnari Dattta Enterprises<span class="close"><button onclick="history.back()" style="font-size:10px">&times;</button></span></h2><hr>
+
+<div class="container">
+ <div class="left-column">
+  <div class="mySlides">
+    <div class="numbertext">1 / 2</div>
+    <img src="photos\bag7\front.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 2</div>
+    <img src="photos\bag7\side.jpg" style="width:100%">
+  </div>
+
+    
+  <a class="prev" onclick="plusSlides(-1)"><</a>
+  <a class="next" onclick="plusSlides(1)">></a>
+	<hr>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="photos\bag7\front.jpg" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="photos\bag7\side.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+  </div>
+</div>
+
+
+<div class="right-column">.
+		<div class="product-description">
+			<h1>Vergin Paper Bag</h1>
+                                           
+		</div>
+		
+		<div class="product-configuration">
+			<div class="product-size">
+				<b>Available in various sizes :-12W*17H*6.5G</b> 
+				<br>
+                                                           
+                                                          <b>Two layer handle<b><br>
+                                                           <b>Weight capacity-10kg<b><br>
+                                                            <b>Hard bottom and side pasting<b><p><br>
+				
+				
+				<b>Note:-</b> <font size="2" color="red">*You can customise the size as well.</font>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
