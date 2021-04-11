@@ -372,6 +372,17 @@ Feature Section
   line-height: 1.5;
 }
 
+@media screen and (max-width: 1280px) {
+  .feature-section-container {
+    flex-direction:row;
+    /*height: 100vh;*/
+  }
+
+  .feature-section-container-card:hover {
+    margin: 25px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .feature-section-container {
